@@ -10,7 +10,7 @@ body {
   width: 100vw;
 }
 .fpart {
-  height: 550px;
+  height: 100vh;
   width: 100%;
   background: #ffefea;
   position: relative;
@@ -20,7 +20,7 @@ header ul {
   list-style: none;
 }
 li {
-  font-size: 12px;
+  font-size: 15px;
   padding-left: 15px;
 }
 header {
@@ -31,16 +31,16 @@ header {
 }
 .h_img > img {
   height: 65px;
-  width: 150px;
+  width: 190px;
   margin-top: 9px;
 }
 button {
-  height: 30px;
-  width: 95px;
+  height: 40px;
+  width: 130px;
   border: none;
   border-radius: 4px;
   background: #f99b80;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
 }
 button > a {
@@ -52,11 +52,11 @@ button > a {
   grid-template-columns: 1fr 1fr;
   height: 100vh;
   padding-left: 70px;
+  margin-top:60px ;
 }
 .m-img > img {
-  height: 390px;
-  width: 390px;
-  padding-left: 20px;
+  height: 500px;
+  width: 500px;
   object-fit: fit;
 }
 /* left content starts here  */
@@ -64,7 +64,7 @@ button > a {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  padding-left: 30px;
+  padding-left: 120px;
 }
 .fst {
   font-size: 60px;
@@ -101,12 +101,12 @@ button > a {
   margin-top: 100px;
 }
 .top {
-  font-size: 10px;
-  padding-left: 120px;
+  font-size: 15px;
+  padding-left: 180px;
 }
 .top > p {
-  width: 75px;
-  height: 25px;
+  width: 110px;
+  height: 30px;
   background: #f7f2f2;
   text-align: center;
   display: flex;
@@ -116,14 +116,14 @@ button > a {
   color: pink;
 }
 .middle {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 800;
-  padding-left: 30px;
+  padding-left: 90px;
 }
 
 .bottom {
   margin-top: 15px;
-  font-size: 15px;
+  font-size: 20px;
   color: gray;
 }
 span {
@@ -144,13 +144,14 @@ span {
 }
 /* first box starts here  */
 .f-middle {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 .f-bottom {
-  font-size: 15px;
+  font-size: 20px;
   color: gray;
   text-align: center;
 }
@@ -161,21 +162,20 @@ span {
   margin-bottom: 10px;
 }
 .f-top img {
-  width: 55px;
-  height: 50px;
   background: #b85c43;
   
 }
 /* first box ends here  */
 /* 2nd box starts here  */
 .s-middle {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 .s-bottom {
-  font-size: 15px;
+  font-size: 20px;
   color: gray;
   margin-top: 5px;
   text-align: center;
@@ -195,14 +195,14 @@ span {
 /* 2nd box ends here  */
 /* 3rd box starts here  */
 .t-middle {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800;
   text-align: center;
   margin-bottom: 20px;
-  position: relative;
+  margin-top: 30px;
 }
 .t-bottom {
-  font-size: 15px;
+  font-size: 20px;
   color: gray;
   margin-top: 5px;
   text-align: center;
@@ -222,14 +222,14 @@ span {
 /* 3rd box ends here  */
 /* 4th box starts here  */
 .f-middle {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800;
   text-align: center;
   margin-bottom: 20px;
-  position: relative;
+
 }
-.f-bottom {
-  font-size: 15px;
+.frth-bottom {
+  font-size: 20px;
   color: gray;
   margin-top: 5px;
   text-align: center;
@@ -262,20 +262,24 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 120px;
+  padding-right: 80px;
+}
+.trd-left-content img{
+  margin-top: 80px;
 }
 .trd-top{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
 }
 .trd-middle{
-  font-size: 12px;
+  font-size: 18px;
   color: gray;
   margin-top: 10px;
 }
 .trd-bottom li{
   margin-bottom: 10px;
   padding-left: 0px;
+  font-size: 20px;
 }
  ul{
   padding-left: 0px;
@@ -295,21 +299,21 @@ padding-left: 120px;
   height: 100vh;
   width: 100vw;
   padding-left: 130px;
-  margin-top: 200px;
-
+  position: relative;
 }
 .fourth-parrent{
 width: 90%;
 height: 400px;
 background: #FFEFEA;
 border-radius:10px;
+margin-top:220px ;
 }
 .fourth-child{
-  width: 600px;
+  width: 800px;
   height: 150px;
   background: #F99B81;
   top: -75px;
-  left: 140px;
+  left: 150px;
   position: relative;
   border-radius: 10px;
 }
@@ -322,16 +326,16 @@ border-radius:10px;
 }
 
 .child-left{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
-  padding-left: 50px;
+  padding-left: 60px;
   color: #fff;
 }
 .child-left p{
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .child-right{
-  padding-left: 50px;
+  padding-left: 80px;
 }
 .child-right button{
   border-radius: 5px;
@@ -345,23 +349,23 @@ border-radius:10px;
 .box-parrent{
   display: grid;
   grid-template-columns: repeat(4 ,1fr);
-
+padding-left: 80px;
 }
 .btm-snd-box li{
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   list-style: none;
 }
 .btm-trd-box li{
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   list-style: none;
 }
 .btm-frth-box li{
  margin-top: 10px;
- font-size: 13px;
+ font-size: 15px;
   font-weight: 700;
   list-style: none;
   
@@ -377,12 +381,14 @@ border-radius:10px;
 }
 .btm-box-content{
   padding-left: 50px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: gray;
 }
+
 .btm-box-img img{
-  margin-bottom: 10px;
+  width: 200px;
+  height: 80px;
 }
 /* icon starts here  */
 .box-btm-icn{
