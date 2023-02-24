@@ -4,6 +4,7 @@
 a {
   text-decoration: none;
 }
+
 body {
   margin: 0;
   width: 100vw;
@@ -162,7 +163,7 @@ span {
   width: 55px;
   height: 50px;
   background: #b85c43;
-  border-radius: 5px;
+  
 }
 /* first box ends here  */
 /* 2nd box starts here  */
@@ -243,3 +244,152 @@ span {
   margin-bottom: 10px;
 }
 /* 4th box ends here  */
+/* secound page ends here  */
+
+/* third page starts here  */
+.trd-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+/* third page right side content starts here */
+.trd-right-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 120px;
+}
+.trd-top{
+  font-size: 25px;
+  font-weight: 600;
+}
+.trd-middle{
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+}
+.trd-bottom li{
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+ ul{
+  padding-left: 0px;
+ list-style: circle inside url(./image/2191542_correct_ok_okay_right_tick_icon.png);
+}
+/* third page right side content ends here */
+/* third page leftt side content starts here */
+.trd-left-content{
+padding-left: 120px;
+}
+/* third page left side content ends here */
+/* third page ends here  */
+/* fourth page starts here  */
+.fourth-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 130px;
+  margin-top: 200px;
+
+}
+.fourth-parrent{
+width: 90%;
+height: 400px;
+background: #FFEFEA;
+border-radius:10px;
+}
+.fourth-child{
+  width: 600px;
+  height: 150px;
+  background: #F99B81;
+  top: -75px;
+  left: 140px;
+  position: relative;
+  border-radius: 10px;
+}
+/* upper child section starts here  */
+.fourth-child{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-left{
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 50px;
+  color: #fff;
+}
+.child-left p{
+  margin-top: 10px;
+}
+.child-right{
+  padding-left: 50px;
+}
+.child-right button{
+  border-radius: 5px;
+  height: 45px;
+  width: 180px;
+  background: #ffefea;
+  font-size: 14px;
+}
+/* upper child section ends here  */
+/* bottom parrent starts here  */
+.box-parrent{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+
+}
+.btm-snd-box li{
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  list-style: none;
+}
+.btm-trd-box li{
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  list-style: none;
+}
+.btm-frth-box li{
+ margin-top: 10px;
+ font-size: 13px;
+  font-weight: 700;
+  list-style: none;
+  
+}
+.btm-frth-box li a{
+  color: grey;
+}
+.btm-trd-box li a{
+  color: grey;
+}
+.btm-snd-box li a{
+  color: grey;
+}
+.btm-box-content{
+  padding-left: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  color: gray;
+}
+.btm-box-img img{
+  margin-bottom: 10px;
+}
+/* icon starts here  */
+.box-btm-icn{
+  display: flex;
+  margin-top: 40px;
+  
+}
+.box-btm-icn img{
+  padding-left: 10px;
+}
+/* icon ends here  */
+/* bottom parrent ends here  */
+/* fourth page ends here  */
